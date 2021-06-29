@@ -123,6 +123,7 @@ nav ul li a.nav-link:hover {
 
 a {
   color: #76bd22;
+	font-family: Kanit, sans-serif;
 }
 
 a:hover {
@@ -151,9 +152,16 @@ section {
   padding: 3rem 3rem 3rem 3rem;
 }
 
-p {
+p, li {
   font-family: Kanit, sans-serif;
   font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+
+figcaption {
+  font-family: Kanit, sans-serif;
+  font-size: 16px;
   font-weight: 300;
   margin-bottom: 8px;
 }
@@ -294,6 +302,10 @@ td {
 	margin-top: 2rem;
 }
 
+.mobile-show-only {
+	display: none;
+}
+
 @media (min-width: 1025px) {
   .testo-r-home {padding-right: 9rem;}
   .testo-l-home {padding-left: 9rem;}
@@ -318,4 +330,8 @@ td {
 @media (max-width: 770px) {
 	.one-page {padding: 10rem 3rem 50% 5rem;}
 	.mod-responsive {padding-bottom: 70%;}
+	}
+
+	@media (max-width: 480px) {
+		.mobile-show-only {display: inline;}
 	}
