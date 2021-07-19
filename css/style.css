@@ -157,6 +157,8 @@ p, li {
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 8px;
+	line-height: 1.6;
+
 }
 
 figcaption {
@@ -334,4 +336,5 @@ td {
 
 	@media (max-width: 480px) {
 		.mobile-show-only {display: inline;}
+		.titolo-doc-pg {font-size: 2rem;}
 	}
